@@ -59,7 +59,8 @@ services:
     ports:
       - "${POSTGRES_PORT}:5432"
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      # CORRECCIÓN: Se monta en /var/lib/postgresql para cumplir con Postgres 18+
+      - postgres_data:/var/lib/postgresql
     networks:
       - db_network
 
