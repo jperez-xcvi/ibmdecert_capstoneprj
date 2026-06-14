@@ -22,16 +22,16 @@ CREATE DATABASE "Test1";
 ```
 ## 4. Copy csv files to container from host
 ```bash
-docker cp /home/jose/projects/ibmdecert_capstoneprj/module03/DimCategory.csv postgresql_container:/tmp/
+docker cp /home/jose/projects/ibmdecert_capstoneprj/module03/lab01/DimCategory.csv postgresql_container:/tmp/
 ```
 ```bash
-docker cp /home/jose/projects/ibmdecert_capstoneprj/module03/DimCountry.csv postgresql_container:/tmp/
+docker cp /home/jose/projects/ibmdecert_capstoneprj/module03/lab01/DimCountry.csv postgresql_container:/tmp/
 ```
 ```bash
-docker cp /home/jose/projects/ibmdecert_capstoneprj/module03/DimDate.csv postgresql_container:/tmp/
+docker cp /home/jose/projects/ibmdecert_capstoneprj/module03/lab01/DimDate.csv postgresql_container:/tmp/
 ```
 ```bash
-docker cp /home/jose/projects/ibmdecert_capstoneprj/module03/FactSales.csv postgresql_container:/tmp/
+docker cp /home/jose/projects/ibmdecert_capstoneprj/module03/lab01/FactSales.csv postgresql_container:/tmp/
 ```
 
 ## 5. Upload csv data to corresponding table of the database
