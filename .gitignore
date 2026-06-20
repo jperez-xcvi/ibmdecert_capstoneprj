@@ -1,2 +1,6 @@
 .env
 backup/
+config/
+logs/
+plugins/
+__pycache__/
